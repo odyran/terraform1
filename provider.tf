@@ -6,7 +6,7 @@ resource "aws_instance" "terraform-demo1"{
     instance_type = var.instance-type
     key_name = var.keypair
     tags = {
-        Name = "jenkins"
+        Name = "mavin"
         env = "dev"
     }
 }
