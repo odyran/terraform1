@@ -23,3 +23,7 @@ variable "name" {
   type    = string
   default = "jenkins"
 }
+
+variable "repo_bucket" {
+  type    = string
+}
